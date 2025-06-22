@@ -15,7 +15,9 @@ module.exports = {
         NODE_ENV: 'production',
         PORT: 1793, // 운영 포트 명시
       },
-      // --- 이 부분이 중요합니다 ---
+      // 로그 파일 경로 지정 (중요)
+      output: '/var/www/log/pm2.log', // 표준 출력 로그
+      error: '/var/www/log/pm2-error.log', // 표준 에러 로그
       // 앱을 www-data 사용자로 실행하도록 설정
       user: 'www-data',
       group: 'www-data',
