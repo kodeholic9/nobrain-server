@@ -1,0 +1,7 @@
+{
+  "port": 1793,
+  "environment": "production",
+  "api_version": "v1",
+  "dataRoot": "/var/www/data",
+  "logPath": "/var/www/log/nobrain-server.log"
+}

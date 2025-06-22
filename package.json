@@ -1,0 +1,22 @@
+{
+  "name": "my-rest-api",
+  "version": "1.0.0",
+  "description": "A simple REST API server on Raspberry Pi",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "winston": "^3.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
